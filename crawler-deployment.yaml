@@ -70,7 +70,7 @@ spec:
             valueFrom:
               configMapKeyRef:
                 name: synergychat-crawler-configmap
-                key: CRAWLER_DB_PATH                   
+                key: CRAWLER_DB_PATH
       volumes:
         - name: cache-volume
           emptyDir: {}
